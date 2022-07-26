@@ -1,0 +1,22 @@
+{
+  "name": "shopping-cart-with-js-oop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  },
+  "dependencies": {
+    "phosphor-icons": "^1.4.2"
+  }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart With JS OOP</title>
+    <link
+      rel="shortcut icon"
+      href="./public/images/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./public/styles/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="bg-slate-900 py-5">
+      <div class="container">
+        <nav class="grid grid-cols-12 items-center justify-between">
+          <div class="logo col-span-2">
+            <a href="/" class="logo flex items-center gap-2">
+              <img src="./public/images/favicon.png" class="h-8" alt="Logo" />
+              <h2 class="text-orange-500 uppercase text-xl font-bold">
+                poorzon
+              </h2>
+            </a>
+          </div>
+          <div class="search col-span-8 text-center">
+            <form class="w-full">
+              <input
+                type="search"
+                class="py-2 w-2/3 px-3 rounded-l-md focus:outline-0 border-0 placeholder:text-sm"
+                placeholder="Search Product"
+              />
+              <input
+                type="submit"
+                value="search"
+                class="bg-orange-500 hover:bg-orange-600 text-white py-2 px-10 -ml-2 cursor-pointer rounded-r-md duration-300"
+              />
+            </form>
+          </div>
+          <div class="icons flex items-center gap-3 col-span-2">
+            <p class="duration-300 hover:-translate-y-1">
+              <span
+                ><i
+                  class="ph-heart icons text-2xl cursor-pointer text-white"
+                ></i
+              ></span>
+              <span class="text-white">0</span>
+            </p>
+            <p class="duration-300 hover:-translate-y-1">
+              <span
+                ><i
+                  class="ph-handbag icons text-2xl cursor-pointer text-white"
+                ></i
+              ></span>
+              <span class="text-white">0</span>
+            </p>
+            <p class="duration-300 hover:-translate-y-1">
+              <span
+                ><i class="ph-list icons text-2xl cursor-pointer text-white"></i
+              ></span>
+            </p>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <script defer type="module" src="./public/js/app.js"></script>
+  </body>
+</html>
